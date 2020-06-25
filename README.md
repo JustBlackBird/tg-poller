@@ -1,6 +1,6 @@
-# TG-Poller
+# 🚀 TG-Poller
 
-> Grabbs all the updates from Telegram API and streams them to a web-hook.
+> Grabs all the updates from Telegram API and streams them to a web-hook.
 
 ## Why
 
