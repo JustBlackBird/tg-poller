@@ -34,7 +34,7 @@ To configure the poller you have to use enviroment variables:
 
 ## Usage
 
-The simplest way to use **TG-Poller** is to run a prebuilt docker image:
+The simplest way to use **TG-Poller** is to run a prebuilt docker [image](https://hub.docker.com/repository/docker/justblackbird/tg-poller):
 
 ```bash
 docker pull justblackbird/tg-poller
