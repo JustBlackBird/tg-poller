@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build
+RUN go build -o tg-poller
 
 FROM debian:buster as app
 
