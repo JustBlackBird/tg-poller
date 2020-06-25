@@ -26,14 +26,14 @@ with Telgram API. You do not need **TG-Poller** anymore.
 
 To configure the poller you have to use enviroment variables:
 
-1. `TELEGRAM_API_HOST` — a host the poller will send requests for updates to. By
-    default it's `api.telegram.org` but you can override it to use another host. It
-    can be usefull if your environment does not have direct access to telegram API
-    (e.g. Telegram is blocked by your organization's firewall).
-2. `TELEGRAM_TOKEN` — token which your bot uses to access Telegram bot API. It's
-    created for you by botfather when you set up a bot.
-3. `UPDATE_HOOK` — URL the poller will stream updates to. Make sure it's available
-    from poller's network.
+- `TELEGRAM_API_HOST` — a host the poller will send requests for updates to. By
+   default it's `api.telegram.org` but you can override it to use another host. It
+   can be usefull if your environment does not have direct access to telegram API
+   (e.g. Telegram is blocked by your organization's firewall).
+- `TELEGRAM_TOKEN` — token which your bot uses to access Telegram bot API. It's
+   created for you by botfather when you set up a bot.
+- `UPDATE_HOOK` — URL the poller will stream updates to. Make sure it's available
+   from poller's network.
 
 ## Usage
 
