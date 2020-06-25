@@ -34,7 +34,15 @@ To configure the poller you have to use enviroment variables:
 
 ## Usage
 
-### With docker-compose
+The simplest way to use **TG-Poller** is to run a prebuilt docker image:
+
+```bash
+docker pull justblackbird/tg-poller
+```
+
+Below you'll find some guides about how to integrate the poller with your environment.
+
+### Use with docker-compose
 
 Here is an example of `docker-compose.yml` config:
 
