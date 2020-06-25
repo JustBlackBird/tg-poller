@@ -17,3 +17,4 @@ jobs:
           repository: ${{ secrets.DOCKER_REPOSITORY }}
           target: app
           tag_with_ref: true
+          tags: latest
