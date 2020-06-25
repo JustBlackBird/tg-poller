@@ -1,4 +1,4 @@
-name: Run CI checks
+name: CI checks
 on: [ push, pull_request ]
 jobs:
   test:
