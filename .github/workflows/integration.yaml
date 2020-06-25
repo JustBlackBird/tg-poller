@@ -2,7 +2,7 @@ name: Build and test
 on: [ push, pull_request ]
 jobs:
   test:
-    name: Run golang built-in quality tools
+    name: Test and lint
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repos
