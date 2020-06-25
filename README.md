@@ -1,6 +1,9 @@
 # 🚀 TG-Poller
 
+![Build and test](https://github.com/JustBlackBird/tg-poller/workflows/Build%20and%20test/badge.svg?branch=master)
+
 > Grabs all the updates from Telegram API and streams them to a web-hook.
+
 
 ## Why
 
