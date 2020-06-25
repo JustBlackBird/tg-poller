@@ -3,6 +3,21 @@ on:
   release:
     types: [published]
 jobs:
+  test:
+    name: Test and lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repos
+        uses: actions/checkout@v2
+      - name: Set up golang
+        uses: actions/setup-go@v2
+          with:
+            go-version: '1.14'
+      - name: Run linter
+        run: go vet ./...
+      - name: Run tests
+        run: go test ./...
+    
   push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
